@@ -1,0 +1,30 @@
+{
+  "name": "dashifen/wp-cli-suite",
+  "description": "A way to define and register a suite of WP CLI commands within a plugin.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Dashifen Kees",
+      "email": "dashifen@dashifen.com",
+      "role": "developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dashifen\\WpCliSuite\\": "src"
+    }
+  },
+  "require-dev": {
+    "wp-cli/wp-cli": "^2.4"
+  },
+  "require": {
+    "dashifen/collection": "^2.0",
+    "dashifen/wp-debugging": "^1.0",
+    "dashifen/repository": "^3.1"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
