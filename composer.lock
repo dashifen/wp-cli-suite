@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51fff093b46a66c07612e468ffac1ef5",
+    "content-hash": "d4392ff70de56f8a38d1732635b17aea",
     "packages": [
         {
             "name": "dashifen/case-changing-trait",
@@ -211,6 +211,47 @@
                 "source": "https://github.com/dashifen/repository/tree/3.1.0"
             },
             "time": "2021-04-07T13:05:06+00:00"
+        },
+        {
+            "name": "dashifen/wp-debugging",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/wp-debugging.git",
+                "reference": "aa461ad9c36283466bd120660ff7a7c68eb521b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/wp-debugging/zipball/aa461ad9c36283466bd120660ff7a7c68eb521b0",
+                "reference": "aa461ad9c36283466bd120660ff7a7c68eb521b0",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/debugging": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\WPDebugging\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "A PHP trait that can be used by other objects for on-screen debugging within a WordPress environment.",
+            "support": {
+                "issues": "https://github.com/dashifen/wp-debugging/issues",
+                "source": "https://github.com/dashifen/wp-debugging/tree/1.0.1"
+            },
+            "time": "2020-12-09T19:29:51+00:00"
         }
     ],
     "packages-dev": [
