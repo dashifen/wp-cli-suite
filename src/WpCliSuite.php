@@ -8,7 +8,7 @@ use Dashifen\WpCliSuite\Commands\CommandInterface;
 use Dashifen\WpCliSuite\Commands\Collection\CommandCollection;
 use Dashifen\WpCliSuite\Commands\Collection\CommandCollectionInterface;
 
-class WpCliSuite
+class WpCliSuite implements WpCliSuiteInterface
 {
   protected CommandCollectionInterface $commands;
   
